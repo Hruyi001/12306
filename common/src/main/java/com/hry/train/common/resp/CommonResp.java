@@ -1,4 +1,4 @@
-package com.hry.train.common.aspect.resp;
+package com.hry.train.common.resp;
 
 public class CommonResp<T> {
 
