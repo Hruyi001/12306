@@ -1,4 +1,4 @@
-package com.jiawa.train.common.aspect;
+package com.hry.train.common.aspect;
 
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.support.spring.PropertyPreFilters;
@@ -31,7 +31,7 @@ public class LogAspect {
     /**
      * 定义一个切点
      */
-    @Pointcut("execution(public * com.jiawa..*Controller.*(..))")
+    @Pointcut("execution(public * com.hry..*Controller.*(..))")
     public void controllerPointcut() {
     }
 
