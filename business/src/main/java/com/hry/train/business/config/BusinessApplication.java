@@ -1,5 +1,6 @@
 package com.hry.train.business.config;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -9,7 +10,7 @@ import org.springframework.core.env.Environment;
 
 @SpringBootApplication
 @ComponentScan("com.hry")
-//@MapperScan("com.hry.train.*.mapper")
+@MapperScan("com.hry.train.*.mapper")
 public class BusinessApplication {
     private static final Logger LOG = LoggerFactory.getLogger(BusinessApplication.class);
 
